@@ -61,33 +61,31 @@ a{
 .newsletter .box-1{
     width: 25%;
     padding: 16px;
-    color: transparent;
+    background-color: transparent;
     color: black;
-    border: none;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 2px;
 }
 .newsletter .box-2{
     width: 25%;
     padding: 16px;
-    color: transparent;
+    background-color: transparent;
     color: black;
-    border: none;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 2px;
 }
 .newsletter .box-3{
     width: 12%;
     padding: 16px;
-    background-color: rgb(68, 187, 255);
+    background-color: rgb(42, 42, 43);
     color: white;
-    border: none;
-    border: 1px solid rgb(68, 187, 255);
+    border: 1px solid rgb(42, 42, 43);
     border-radius: 2px;
     cursor: pointer;
 }
 .newsletter .box-3:hover{
     background-color: rgb(243, 67, 13);
+    border: 1px solid rgb(243, 67, 13);;
 }
 
 .contact{
@@ -116,7 +114,7 @@ a{
     width: 31%;
     padding: 16px;
     margin: 10px;
-    color: transparent;
+    background-color: transparent;
     color: black;
     border: none;
     border: 1px solid rgba(0, 0, 0, 0.25);
@@ -128,16 +126,21 @@ a{
     padding: 16px;
     width: 765px;
     height: 309px;
-    color: transparent;
+    background-color: transparent;
     color: black;
     border: none;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 2px;
 }
 
+.contact .check_box{
+    margin-left: -323px;
+    margin-bottom: 15px;
+}
+
 .contact .c_submit{
     font-size: 18px;
-    width: 15%;
+    width: 16%;
     padding: 15px;
     background-color: rgb(68, 187, 255);
     color: white;
@@ -155,4 +158,82 @@ a{
 
 .contact .c_submit:hover{
     background-color: rgb(54, 117, 212);
+    border: 1px solid rgb(54, 117, 212);
+}
+
+.footer{
+    background-color: black;
+    padding: 60px;
+}
+
+.footer .footer-menu{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    border-bottom: 1px dotted rgb(99, 99, 99);;
+}
+
+.footer .col h6{
+    font-family: 'Roboto', sans-serif;;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer .menu a{
+    color: rgb(182, 179, 179);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer .footer-button li{
+    display: inline-block;
+    margin-top: 18px;
+    
+}
+
+.footer .footer-button li a{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(182, 179, 179);
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+
+.footer .f-class{
+    border-right: none !important;
+    
+}
+
+.footer .footer-button .footer-copy{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(182, 179, 179);
+    margin: 10px 0px;
+}
+
+
+.footer .social-icon li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 15px 0px 15px;
+    
+    
+}
+.footer .social-icon li a i{
+    background-color: rgb(31, 128, 212);
+    color: aliceblue;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    
+}
+
+.footer .social-icon li a i:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    
 }
