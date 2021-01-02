@@ -162,7 +162,7 @@ a{
 }
 
 .footer{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 60px;
 }
 
@@ -171,6 +171,9 @@ a{
     justify-content: space-around;
     padding-bottom: 25px;
     border-bottom: 1px dotted rgb(99, 99, 99);;
+}
+.footer .footer-menu li{
+    list-style: none;
 }
 
 .footer .col h6{
